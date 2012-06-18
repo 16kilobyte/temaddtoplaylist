@@ -1,0 +1,13 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=/usr/lib/nautilus/extensions-2.0
+datarootdir=${prefix}/share
+datadir=${datarootdir}
+includedir=${prefix}/include/libtotemaddtoplaylist-0.1
+
+Name: libtotemaddtoplaylist
+Description: Sample library created by Anjuta project wizard.
+Version: 0.1
+Requires: 
+Libs: -L${libdir} -ltotemaddtoplaylist
+Cflags: -I${includedir}

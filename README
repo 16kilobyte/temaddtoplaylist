@@ -1,0 +1,3 @@
+./configure --prefix=/usr/ --libdir=/usr/lib/nautilus/extensions-2.0
+make
+sudo make install
